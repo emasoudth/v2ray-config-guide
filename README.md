@@ -15,7 +15,7 @@ To get started, follow these steps:
 3-Open the ssh_config file and modify the settings according to your needs.
 4-Start the V2Ray server by running the following command:
 ```language
-v2ray -config v2ray-config.json
+v2ray -config v2ray-config.json ```
 5-Start the SSH tunnel by running the following command:
 ```language
 ssh -f -N -D 127.0.0.1:1080 -i /path/to/your/private/key user@your_server_ip
